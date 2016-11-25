@@ -1,6 +1,7 @@
 package com.digi.entity;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
@@ -16,6 +17,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @Embeddable
+@AllArgsConstructor
 public class User implements Serializable {
 
 	@Id
