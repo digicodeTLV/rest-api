@@ -12,6 +12,5 @@ import java.util.List;
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Integer> {
 	List<Person> findByBranchId (Integer id);
-
 	List<Person> findByBranchCompanyId (Integer id);
 }

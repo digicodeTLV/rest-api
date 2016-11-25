@@ -17,7 +17,7 @@ public class GreetingController {
 
 	private final GreetingService gService;
 
-	@RequestMapping(value = "/greeting", method = RequestMethod.POST)
+	@RequestMapping(value = "/greeting", method = RequestMethod.GET)
 	public Greeting greeting (@RequestBody User usr) {
 		return gService.greeting(usr);
 	}

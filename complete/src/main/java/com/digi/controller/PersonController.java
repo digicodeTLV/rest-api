@@ -1,6 +1,7 @@
 package com.digi.controller;
 
 import com.digi.entity.db.Person;
+import com.digi.entity.db.Skill;
 import com.digi.service.PersonService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.inject.Inject;
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
